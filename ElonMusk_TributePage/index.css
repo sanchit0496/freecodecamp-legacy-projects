@@ -1,0 +1,114 @@
+@font-face {
+    font-family: "Marske";
+    src: url("https://cdn.rawgit.com/aftabparvez/aftabparvez.github.io/3bbbfb22/fonts/marske/Marske.eot?#iefix")
+        format("embedded-opentype"),
+      url("https://cdn.rawgit.com/aftabparvez/aftabparvez.github.io/3bbbfb22/fonts/marske/Marske.woff")
+        format("woff"),
+      url("https://cdn.rawgit.com/aftabparvez/aftabparvez.github.io/3bbbfb22/fonts/marske/Marske.ttf")
+        format("truetype"),
+      url("https://cdn.rawgit.com/aftabparvez/aftabparvez.github.io/3bbbfb22/fonts/marske/Marske.svg#Marske")
+        format("svg");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+img{
+    height: 80%;
+    width: 100%;
+    z-index: -1;
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.info{
+        position: absolute;
+        top: 80%;
+        left: 52%;
+        transform: translate(-50%, -50%);
+        font-family: Marske;
+}
+h1{
+    font-size: 550%;
+}
+p{
+    font-size: 200%;
+}
+.timeline {
+    padding: 40px 0px;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 40px;
+  }
+  .timeline .column {
+    margin: 40px 40px 40px 120px;
+  }
+  .timeline .column .title h1 {
+    font-size: 120px;
+    color: ##000611;
+    font-family: "Marske";
+    letter-spacing: 3px;
+    opacity: 0.4;
+  }
+  .timeline .column .title h2 {
+    margin-top: -120px;
+    margin-left: 10px;
+    font-size: 40px;
+    font-family: marske;
+  }
+  .timeline .column .description p {
+    font-size: 20px;
+    line-height: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #000d19;
+  }
+  .timeline .column .description {
+    border-left: 1px solid #000;
+  }
+
+  .timeline{
+    border-left: 4px solid #000;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .timeline:before {
+    content: "";
+    position: absolute;
+    top: 40px;
+    left: 65px;
+    width: 3px;
+    height: calc(100% - 120px);
+    background: #000d19;
+    opacity: 0.6;
+  }  
+  .timeline: before {
+    content: "";
+    position: absolute;
+    top: 40px;
+    left: 65px;
+    width: 3px;
+    height: calc(100% - 120px);
+    background: #000d19;
+    opacity: 0.6;
+  }
+  .timeline .column .title h1:before {
+    content: "";
+    position: absolute;
+    left: -62px;
+    top: 86px;
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    border: 3px solid #c0392b;
+  }
+  
+footer{
+    background-color: whitesmoke;
+    font-size: 30px;
+    text-align: center;
+    font-family: marske;
+}
