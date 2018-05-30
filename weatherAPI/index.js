@@ -6,9 +6,8 @@ $(document).ready(function(){
   var fTemp;
   var cTemp;
   var kTemp;
-
-var api = 'https://fcc-weather-api.glitch.me/api/current?lat=23&lon=77'
-
+  
+    var api = 'https://fcc-weather-api.glitch.me/api/current?lat=23&lon=77';
 
   
 if (navigator.geolocation) {   navigator.geolocation.getCurrentPosition(function (position) {
@@ -16,11 +15,13 @@ if (navigator.geolocation) {   navigator.geolocation.getCurrentPosition(function
 lat = (position.coords.latitude).toFixed(2)
 lon = (position.coords.longitude).toFixed(2)
   
- $("#data").html("The Latitude is " + lat + ", and The Longitude is " + lon);                 
+ $("#data").html("The Latitude is " + lat + ", and The Longitude is " + lon);       
+  
  });
    }
 
  
+  
   
 $.getJSON(api, function(data){
     
@@ -39,9 +40,8 @@ fTemp = ((kTemp)*(9/5) - 459.67).toFixed(2);
 $('#place').html("The City is " + city); 
 
     
-$('#cTemp').html("The Temperature is " + cTemp + " celsius"); 
     
-$('#fTemp').html("The Temperature is " + fTemp + " &#8457"); 
+$('#fTemp').html("The Temperature is " + fTemp + " &#8457" + " (<em>Click For Celsius</em>)"); 
 
 $('#weatherType').html("The Weather Is " + weatherType);   
   
@@ -52,11 +52,11 @@ $('#windSpeed').html("The Speed of The Wind Is " + windSpeed + " mph");
    
 $("#fTemp").click(function(){
 if(tempSwap===false){
-$("#fTemp").html("The Temperature Is " + fTemp + " &#8457;"); 
+$("#fTemp").html("The Temperature Is " + fTemp + " &#8457;" + " (<em>Click For Celsius</em>)"); 
           tempSwap=true;
  }
  else{
-$("#fTemp").html("The Temperature Is " +cTemp + " &#8451;");
+$("#fTemp").html("The Temperature Is " +cTemp + " &#8451;" + " (<em>Click For Fahrenheit<em>)");
           tempSwap=false;
 }   
 });
