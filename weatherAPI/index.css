@@ -1,0 +1,19 @@
+body{
+  background-color : pink;
+}
+.info{
+  border-style: solid;
+  border-width: 2px;
+  margin: 10%;
+  padding:5%;
+  background-color:white;
+}
+p{
+  font-size: 150%;
+}
+.btn{
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  padding:1%;
+}
