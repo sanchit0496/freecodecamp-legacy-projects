@@ -1,19 +1,26 @@
 body{
   background-color : pink;
+  background-size:cover;
+}
+.about{
+  font-size:120%;
+  border-style: solid;
+  background-color:white;
+  text-align:center;
+  border-width: 1px;
+  margin: 5%;
+  padding:1%;
 }
 .info{
   border-style: solid;
-  border-width: 2px;
+  border-width: 0px;
   margin: 10%;
-  padding:5%;
-  background-color:white;
-}
-p{
-  font-size: 150%;
+  padding:1%;
 }
 .btn{
   border-width: 1px;
   border-style: solid;
   border-color: black;
   padding:1%;
+  background-color:white;
 }

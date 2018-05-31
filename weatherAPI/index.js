@@ -7,7 +7,6 @@ $(document).ready(function(){
   var cTemp;
   var kTemp;
   
-    var api = 'https://fcc-weather-api.glitch.me/api/current?lat=23&lon=77';
 
   
 if (navigator.geolocation) {   navigator.geolocation.getCurrentPosition(function (position) {
@@ -17,12 +16,15 @@ lon = (position.coords.longitude).toFixed(2)
   
  $("#data").html("The Latitude is " + lat + ", and The Longitude is " + lon);       
   
+  api = `https://fcc-weather-api.glitch.me/api/current?lat=${lat}&lon=${lon}`
+  weatherInfo()
+  
  });
    }
 
  
   
-  
+  function weatherInfo(){
 $.getJSON(api, function(data){
     
 var weatherType = data.weather[0].description;
@@ -75,7 +77,7 @@ $("#fTemp").html("The Temperature Is " +cTemp + " &#8451;" + " (<em>Click For Fa
         $('body').css('background-image','url(https://images.unsplash.com/photo-1422020297037-97bd356cc312?crop=entropy&fit=crop&fm=jpg&h=1250&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=2400)');
       } 
   });
-    
+  }    
 
 });
  
