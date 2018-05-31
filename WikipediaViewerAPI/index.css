@@ -5,6 +5,9 @@
     border-bottom-width:2.5px;
     border-bottom-color:black;  
   }
+  .btn{
+    background-color:green;
+  }
   .intro h1{
     text-align:centre;
     font-size:240%;
@@ -31,10 +34,29 @@
     .spacer {
       padding: 2%;
     }
-  #results{
-    text-align:left;
+  
+    .output {
+      background-color: black;
+      opacity: .9;
+      color: white;
+      padding: 4%;
+      width: 75%;
+      margin-right: auto;
+      margin-left: auto;
+      border-radius: 15px;
+      font-size: 90%;
+      padding-bottom: 2%;
+    }
+  .output h4{
+    font-size:240%;
+    text-align:center;
   }
-  #results h1{
-    font-size:40px;
+  .output h1{
+    font-size:180%;
+    font-weight:500;
+    color:lightgreen;
   }
-    
+  .output h3{
+    font-size:140%;
+    font-weight:350;
+  }

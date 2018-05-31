@@ -12,16 +12,14 @@ $(document).ready(function(){
         url : url,
         async:false,
         dataType:'json',
-        success: function(data){
-          console.log(data[2][1]);
-          
+        success: function(data){        
           
        $('#results').html(''); //clears all data prior to running/re-running for loop   
           
           
        for (var i = 0; i < data[1].length; i++) {
             
-          $('#results').append("<a href=" + data[3][i] +"><h1>" + data[1][i] + "</h1></a>" + "<h3>" + data[2][i] + "</h3><br>");
+          $('#results').append("<a href=" + data[3][i] +"><h1>" + data[1][i] + "</h1></a>" + "<h3>" + data[2][i] + "</h3><br><br>");
           }
                    
   
@@ -32,25 +30,10 @@ $(document).ready(function(){
         error: function(error){
           alert("Error")
         },
-      
-      
-      
-      
-      
+    
       
       });
       
-      
-    
-        
-        
-        
-        
-        
-        
-        
-        
-        
         
     });
     
