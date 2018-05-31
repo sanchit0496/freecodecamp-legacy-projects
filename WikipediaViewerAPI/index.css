@@ -1,0 +1,40 @@
+.intro{
+    background-color:wheat;
+    padding:3%;
+    border-bottom-style:solid;
+    border-bottom-width:2.5px;
+    border-bottom-color:black;  
+  }
+  .intro h1{
+    text-align:centre;
+    font-size:240%;
+    font-weight:650;
+  }
+  .intro h2{
+    text-align:centre;
+    font-size:140%;
+    font-weight:450;
+  }
+  .block {
+      background-color: black;
+      opacity: .9;
+      color: white;
+      padding: 4%;
+      width: 75%;
+      margin-right: auto;
+      margin-left: auto;
+      border-radius: 15px;
+      font-size: 90%;
+      padding-bottom: 2%;
+    }
+    
+    .spacer {
+      padding: 2%;
+    }
+  #results{
+    text-align:left;
+  }
+  #results h1{
+    font-size:40px;
+  }
+    
