@@ -1,0 +1,37 @@
+h1{
+    color:black
+  }
+  
+  body{
+    background-color:#E0F7FA;
+  }
+  
+  .container{
+   margin-left:180px; 
+   margin-right:180px;
+   margin-top:120px;
+   font-size:22px; 
+  }
+  
+  button {
+      position:fixed;
+      background-color: #4CAF50;
+      margin-top:60px;
+      margin-left:350px;
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+  }
+  .footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #efefef;
+    text-align: center;
+  }
