@@ -1,0 +1,28 @@
+.block {
+    background-color: black;
+    opacity: .9;
+    color: white;
+    padding: 50px;
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 15px;
+    font-size: 1.5em;
+    padding-bottom: 2%;
+    }
+  
+  .spacer {
+    padding: 3%;
+  }
+  
+  body {
+    background: url('https://cdn2.tnwcdn.com/wp-content/blogs.dir/1/files/2016/12/twitch-796x448.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+a{
+  color:white;
+}
