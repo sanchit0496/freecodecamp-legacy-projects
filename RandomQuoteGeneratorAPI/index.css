@@ -15,17 +15,31 @@
   }
   
   .content{  
-    padding-left:9%;
-    padding-right:9%;
-    margin-top:16%;
+    padding-left:12%;
+    padding-right:12%;
+    margin-top:12%;
     margin-bottom:4%;
     max-height:40%;
     font-size:105%;
   }
-  button {
+  #newQuote {
       position:fixed;
-      margin-top:5%;
-      margin-left:35%;
+      margin-top:2%;
+      margin-left:65%;
+      padding:0.8%;
+      padding-right:4%;
+      padding-left:4%;
+      color:black;
+      background-color:lightblue;
+      font-weight:400;
+      border-style:solid;
+      border-width:1px;
+      border-color:blue;
+  }
+  #tweet {
+      position:fixed;
+      margin-top:2%;
+      margin-left:15%;
       padding:0.8%;
       padding-right:4%;
       padding-left:4%;
@@ -46,7 +60,7 @@
     text-align:center;
   }
   #quote{
-    font-size:190%;
+    font-size:170%;
     font-family:satisfy;
   }
   #author{
