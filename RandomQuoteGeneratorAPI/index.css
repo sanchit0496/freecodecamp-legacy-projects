@@ -1,0 +1,54 @@
+.info{
+    background-color:lightblue;
+    padding:1%;
+    max-height:20%;
+  }
+  .info h1{
+    text-align:center;
+  }
+  .info h5{
+    text-align:center;
+  }
+  
+  body{
+    background-color:whitesmoke;
+  }
+  
+  .content{  
+    padding-left:9%;
+    padding-right:9%;
+    margin-top:16%;
+    margin-bottom:4%;
+    max-height:40%;
+    font-size:105%;
+  }
+  button {
+      position:fixed;
+      margin-top:5%;
+      margin-left:35%;
+      padding:0.8%;
+      padding-right:4%;
+      padding-left:4%;
+      color:black;
+      background-color:lightblue;
+      font-weight:400;
+      border-style:solid;
+      border-width:1px;
+      border-color:blue;
+  }
+  footer {
+   position:fixed;
+    bottom:0%;
+    background-color:lightblue;
+    width:100%;
+    max-height:20%;
+    padding:1%;
+    text-align:center;
+  }
+  #quote{
+    font-size:190%;
+    font-family:satisfy;
+  }
+  #author{
+    font-size:120%;
+  }
