@@ -15,13 +15,10 @@ $(document).ready(function(){
     });
       
       $("#newQuote").on("click", function(){
-      getQuote();
-    });
-      
-      
+        getQuote();
+        
+    });  
+    
     }  
-    
-    
-    
     
   });
