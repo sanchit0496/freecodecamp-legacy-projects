@@ -1,0 +1,67 @@
+.gameBoard{
+       width:372px;
+       height: 372px;
+       margin:  auto;
+  
+  
+}
+
+row {
+    clear:both;
+    overflow:hidden;
+    margin:  auto;
+}
+
+.square{
+    float: left;
+   background: rgba(255, 255, 255, .9);
+    width: 122px;
+    height: 122px;
+   border: 1px solid black;
+   cursor: pointer;
+   text-align:center;
+   font-size: 100px;
+   -moz-box-shadow: 8px 8px 15px #000; 
+ -webkit-box-shadow: 8px 8px 15px #000; 
+ box-shadow: 8px 8px 15px #000; 
+  
+}
+
+.ex{
+ background-color:white;   
+}
+
+.oh{
+    background-color:white;   
+}
+    
+body {
+    background: no-repeat center center fixed;
+    background: url(http://wallpaperspix.com/wp-content/uploads/2018/03/Tom-and-Jerry-hd-images-Photos-and-Wallpapers-Free-23.jpg) ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.info h1{
+    text-align: center;
+    padding: 1%;
+    color: white;
+    font: 400% Georgia, "Bitstream Charter", "URW Bookman L", "Century Schoolbook L", serif;   
+}
+
+.spacer {
+  text-align: center;
+  text-shadow: 1px 1px 2px black, 0 0 1em black;
+   color: white;
+   font: 200% Georgia, "Bitstream Charter", "URW Bookman L", "Century Schoolbook L", serif;
+  
+}
+
+.btn{
+      text-align: center;
+      box-shadow: 2px 2px 8px #000; 
+ 
+
+      
+} 
