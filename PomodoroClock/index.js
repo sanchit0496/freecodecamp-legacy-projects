@@ -34,7 +34,7 @@ $(document).ready(function(){
     
     
     
-    $("start").onClick(function(){
+    $("#start").click(function(){
       
       $('#breakDIV,#timerDIV').hide();
       $('#start').hide();
@@ -49,7 +49,49 @@ $(document).ready(function(){
       
       var countDown = setInterval(function(){
         
-      })
+        if(seconds>0){
+        seconds = seconds -1;
+        
+          if(count==61){
+            timer = timer -1;
+            count = 0;
+          }
+          count = count + 1;
+          
+          if(seconds%60<10){
+            $('#countDown').html(timer + ":0" + seconds%60);
+          }else{
+           $('#countDown').html(timer + ":" + seconds%60);
+          }
+        }
+        
+       
+        if(seconds===0){
+          var breakTime = $('#breakTime').text();
+     seconds = $('#breakTime').text()*60;
+        timer = $('#breakTime').text() - 1;
+        
+        var breakCountDown = setInterval(function(){
+  if(seconds>0){
+    seconds = seconds -1 ;
+    if (seconds%60 < 10){
+      $('#countDown').html("Break Time Remaining: " + timer + ":0" + seconds % 60);
+    }else{
+        $('#countDown').html("Break Time Remaining: " + timer + ":" + seconds % 60);
+         
+    }
+  }
+      else{
+      cleanInterval(breakCountDown);
+      }  
+        }, 1000);
+        
+        clearInterval(countDown);
+        
+        }
+        
+        
+      },1000);
       
       
       
