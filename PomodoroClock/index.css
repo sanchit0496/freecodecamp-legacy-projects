@@ -1,0 +1,29 @@
+body{
+  
+    font-family:'Lato';
+    background-color:rgb(112,221,123);
+  }
+  
+  h2{  
+    display:inline;
+    padding-left:25px;
+    padding-right:25px;
+  }
+  
+  .container div{
+    background-color:white;
+    color:black;
+    padding:0.5%;
+    border-style:solid;
+    border-width:2%;
+    border-color:green;
+  }
+  .intro{
+    background-color:whitesmoke;
+    text-align:center;
+    padding:2%;
+    border-bottom-width:2%;
+    border-bottom-style:solid;
+    border-bottom-color:black;
+  }
+  
