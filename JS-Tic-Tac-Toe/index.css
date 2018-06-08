@@ -40,7 +40,7 @@ row {
     
 body {
     background: no-repeat center center fixed;
-    background: url(http://wallpaperspix.com/wp-content/uploads/2018/03/Tom-and-Jerry-hd-images-Photos-and-Wallpapers-Free-23.jpg) ;
+    background: url(https://i.pinimg.com/originals/27/c3/41/27c341ea8d860408d0c6348930c55b5b.jpg) ;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -48,7 +48,7 @@ body {
 }
 
 .spacer {
-  padding: 1%;
+  padding: 5%;
   text-align: center;
   text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;
    color: white;
