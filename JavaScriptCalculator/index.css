@@ -1,65 +1,65 @@
 body{
-    background: url(http://damescaucus.com/wp-content/uploads/2018/04/desk-table-top-design-decoration-inside-plans-0.jpg) no-repeat center center;
-     -webkit-background-size: cover;
-     -moz-background-size: cover;
-     -o-background-size: cover;
-     background-size: cover;
-     text-align:center;  
+  background: url(http://cdn.wallpapersafari.com/79/35/qzFjZR.jpg) no-repeat center center;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   text-align:center;  
+ }
+ 
+ h1{
+   color:white;
+   font-size: 340%;
+    text-shadow: 2px 2px 2px  black;  
+    font-weight:540; 
+     -webkit-text-stroke: 0.4px black ;
+ 
+ }
+ h3{
+   color:white;
+   font-size: 120%;
+   font-weight:480; 
+ }
+ 
+ #calc{
+   background-color:gray;
+   width:250px;
+   height:350px;
+   border:1px solid black;
+   padding: 20px;
+   border-radius:20px;
+   margin: 50px auto;
+   box-shadow: 0px 0px 3px 6px #ccc;
    }
-   
-   h1{
-     color:white;
-     font-size: 290%;
-      text-shadow: 2px 4px 5px  black;  
-      font-weight:540; 
-       -webkit-text-stroke: 0.4px black ;
-   
-   }
-   h3{
-     color:white;
-     font-size: 120%;
-     font-weight:480; 
-   }
-   
-   #calc{
-     background-color:lightslategray;
-     width:250px;
-     height:350px;
-     border:1px solid black;
-     padding: 20px;
-     border-radius:20px;
-     margin: 50px auto;
-     box-shadow: 0px 0px 3px 6px #ccc;
-     }
-   
-   #display{
-     margin-bottom:20px;
-     height:30px;
-     width: 10em;
-     border:1px solid black;
-     border-radius:5px;
-     box-shadow: 0px 0px 1px black;
-     text-align: right;
-     font: 20px bold;
-     padding:10px;
-   }
-   
-   #key {
-     width: 41px;
-     height:35px;
-     margin:4px;
-     box-shadow: 0px 0px 2px 1px black;
-     border-radius:2px;
-     outline: none
-   }
-   
-   #equal{
-     width: 92px;
-     height:35px;
-     margin:4px;
-     box-shadow: 0px 0px 2px 1px black;
-     border-radius:2px;
-     outline: none
-   }
-   
-   
+ 
+ #display{
+   margin-bottom:20px;
+   height:30px;
+   width: 10em;
+   border:1px solid black;
+   border-radius:5px;
+   box-shadow: 0px 0px 1px black;
+   text-align: right;
+   font: 20px bold;
+   padding:10px;
+ }
+ 
+ #key {
+   width: 41px;
+   height:35px;
+   margin:4px;
+   box-shadow: 0px 0px 2px 1px black;
+   border-radius:2px;
+   outline: none
+ }
+ 
+ #equal{
+   width: 92px;
+   height:35px;
+   margin:4px;
+   box-shadow: 0px 0px 2px 1px black;
+   border-radius:2px;
+   outline: none
+ }
+ 
+ 
