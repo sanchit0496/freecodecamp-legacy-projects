@@ -1,14 +1,15 @@
 .block {
+  font-family: 'Song Myung', serif;
     background-color: black;
-    opacity: .9;
+    opacity: 0.8;
     color: white;
-    padding: 50px;
-    width: 75%;
-    margin-right: auto;
-    margin-left: auto;
-    border-radius: 15px;
+    padding: 5%;
+    width: 100%;
+    border-radius: 5px;
     font-size: 1.5em;
     padding-bottom: 2%;
+  font-size:145%;
+ 
     }
   
   .spacer {
@@ -16,7 +17,7 @@
   }
   
   body {
-    background: url('https://cdn2.tnwcdn.com/wp-content/blogs.dir/1/files/2016/12/twitch-796x448.jpg') no-repeat center center fixed;
+    background: url('http://i.imgur.com/FVtV9dX.png') center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
