@@ -1,5 +1,3 @@
-//Client ID= 59x9ex7f5zzongzntqx0zrwleoxy12  slice 37
-
 $(function() {
 
   var follower = ["ESL_SC2", "OgamingSC2", "cretetion", "freecodecamp", "storbeck", "habathcx", "RobotCaleb", "noobs2ninjas", "brunofin"];
