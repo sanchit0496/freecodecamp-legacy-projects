@@ -1,0 +1,81 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+      text-align: center;
+  }
+  .info{
+    background-color:rgb(123,213,242);
+    padding:2%;
+    border-bottom-style:solid;
+    border-bottom-color:black;
+    border-bottom-width:2%;
+  }
+  .info h1{
+      font-size:350%;
+  }
+  .info a{
+    color:black;
+    text-decoration:underline;
+    margin-left:4%;
+    font-size:120%;  
+    text-align:right;
+  }
+  #simon-game-container {
+      width: 340px;
+      height: 340px;
+      border-radius: 50%;
+      border: 6px black solid;
+      margin: 0 auto;
+      /*overflow: hidden;*/
+  }
+  .slice {
+      width: 164px;
+      height: 164px;
+      border: 1px solid black;
+      float: left;
+      cursor: pointer;
+  }
+  #red {
+      background-color: #f46b41;
+      border-top-left-radius: 100%;
+  }
+  #green {
+      background-color: rgb(56, 206, 45);
+      border-bottom-right-radius: 100%;
+  }
+  #yellow {
+      background-color: rgb(244, 197, 66);
+      border-bottom-left-radius: 100%;
+  }
+  #blue {
+      background-color:rgb(80, 73, 221);
+      border-top-right-radius: 100%;
+  }
+  #level-container {
+      display: inline-block;
+      margin: 10px;
+      font-size: 20px;
+  }
+  .btn {
+      font-size: 140%;
+      margin-top: 2%;
+    padding-left:4%;
+    padding-right:4%;
+  }
+  .inst{
+    background-color:#5bc0de;
+    padding:1%;
+    text-align:center;
+    font-size:24px;
+  }
+  #instructions{
+    text-align:left;
+    margin-left:15%;
+    margin-right:15%;
+    margin-top:5%;
+    border-style:solid;
+    border-width:1%;
+    border-color:#5bc0de;
+    }
+  li{
+    padding:3px;
+  }
