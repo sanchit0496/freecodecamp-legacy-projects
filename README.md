@@ -32,7 +32,7 @@ This repository contains a collection of projects that are part of the FreeCodeC
 To get started with these projects, clone the repository and navigate to the project folder.
 
 ```sh
-git clone https://github.com/sanchit0496/freeCodecamp_LegacyFEND.git
+git clone https://github.com/sanchit0496/freecodecamp-legacy-projects.git
 cd repository-name
 # Navigate to individual project folders for specific instructions
 ```
